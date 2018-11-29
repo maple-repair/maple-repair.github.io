@@ -14,8 +14,8 @@
   patch. This constraint set will be solved by a constraint solving
   technique using Farkas' lemma to identify the unknown coefficients,
   consequently discovering the patch. We implement our approach in a tool
-  called {\maple} and evaluate it with various buggy programs from a widely
-  used benchmark {\TCAS} as well as a synthetic, yet challenging benchmark
+  called **maple** and evaluate it with various buggy programs from a widely
+  used benchmark **TCAS** as well as a synthetic, yet challenging benchmark
   containing recursive programs. Our tool outperforms state-of-the-art
   program repair tools in returning desired patches.
 

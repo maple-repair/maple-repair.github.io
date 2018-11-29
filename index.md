@@ -1,37 +1,57 @@
-## Welcome to GitHub Pages
+<!-- You can use the [editor on GitHub](https://github.com/maple-repair/expression-templates/edit/master/index.md) to maintain and preview the content for your website in Markdown files. -->
 
-You can use the [editor on GitHub](https://github.com/maple-repair/maple-repair.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<!-- # Automated Program Repair using Formal Specifications. -->
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Abstract
+  We present an automated approach to repair programs using formal
+  verification and expression templates. In our approach, an input program
+  is first verified against its formal specification to discover
+  potentially buggy statements. For each of these statements, we identify
+  the expression that needs to be repaired and set up a template patch
+  which is a linear expression composed of the program's variables and
+  unknown coefficients. Then, we analyze the template-patched program
+  against its specification to collect a set of constraints of the template
+  patch. This constraint set will be solved by a constraint solving
+  technique using Farkas' lemma to identify the unknown coefficients,
+  consequently discovering the patch. We implement our approach in a tool
+  called {\maple} and evaluate it with various buggy programs from a widely
+  used benchmark {\TCAS} as well as a synthetic, yet challenging benchmark
+  containing recursive programs. Our tool outperforms state-of-the-art
+  program repair tools in returning desired patches.
 
-### Markdown
+## Experiment data for Maple in the benchmark **Recursion**
+In our paper's experiment section, we have 2 benchmarks, **TCAS** and a
+newly-created **Recursion**. The details about the second benchmark is provided
+in [Github](https://github.com/maple-repair/recursive-benchmark).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## People
+- Dr. Wei-Ngan Chin (Associate Professor - National University of Singapore)
+- Dr. Quang-Trung Ta (Research Fellow - National University of Singapore) 
+- Thanh-Toan Nguyen (PhD Candidate - National University of Singapore)
 
-# Header 1
-## Header 2
-### Header 3
+<!-- ## Our VMCAI paper -->
 
-- Bulleted
-- List
+<!-- ## Header 2 -->
+<!-- ### Header 3 -->
 
-1. Numbered
-2. List
+<!-- - Bulleted -->
+<!-- - List -->
 
-**Bold** and _Italic_ and `Code` text
+<!-- 1. Numbered -->
+<!-- 2. List -->
 
-[Link](url) and ![Image](src)
-```
+<!-- **Bold** and _Italic_ and `Code` text -->
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<!-- [Link](url) and ![Image](src) -->
+<!-- ``` -->
 
-### Jekyll Themes
+<!-- For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/). -->
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/maple-repair/maple-repair.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+<!-- ### Jekyll Themes -->
 
-### Support or Contact
+<!-- Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/maple-repair/expression-templates/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file. -->
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!-- ### Support or Contact -->
+
+<!-- Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out. -->

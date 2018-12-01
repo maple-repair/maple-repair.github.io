@@ -19,11 +19,14 @@
   containing recursive programs. Our tool outperforms state-of-the-art
   program repair tools in returning desired patches.
 
-## Experiment data for Maple in the benchmark **Recursion**
+## The Benchmark **Recursion**
 In our paper's experiment section, we have 2 benchmarks, **TCAS** and a
 newly-created **Recursion**. The details about the second benchmark is provided
 in [Github](https://github.com/maple-repair/recursive-benchmark).
 
+## Maple
+Maple is build on top of the [HIP](http://loris-5.d2.comp.nus.edu.sg/hip/index.html)
+verification system and [Songbird](https://songbird-prover.github.io/) prover. 
 
 ## People
 - Dr. Wei-Ngan Chin (Associate Professor - National University of Singapore)

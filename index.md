@@ -19,14 +19,28 @@
   containing recursive programs. Our tool outperforms state-of-the-art
   program repair tools in returning desired patches.
 
-## The Benchmark **Recursion**
-In our paper's experiment section, we have 2 benchmarks, **TCAS** and a
-newly-created **Recursion**. The details about the second benchmark is provided
-in [Github](https://github.com/maple-repair/recursive-benchmark).
-
 ## Maple
 Maple is build on top of the [HIP](http://loris-5.d2.comp.nus.edu.sg/hip/index.html)
 verification system and [Songbird](https://songbird-prover.github.io/) prover. 
+
+## Compared Tools
+- [AllRepair](https://github.com/batchenRothenberg/AllRepair)
+- [Forensic](http://www.informatik.uni-bremen.de/agra/eng/forensic.php)
+- [Angelix](https://github.com/mechtaev/angelix) - The experiments are done with
+  the provided VirtualBox image.
+- [GenProg](https://github.com/squaresLab/genprog-code)
+
+## The Benchmarks and Experiments.
+- The test suites for the *TCAS* benchmark is provided by Xianglong Kong. You
+  can download by this [link](files/genprog-demo.zip). The benchmark contains 41
+  buggy cases. Each case has its own test suite of 40 tests.
+- The details about the second benchmark is provided
+in [Github](https://github.com/maple-repair/recursive-benchmark).
+- The experiments of AllRepair and Forensic are done with the same format which
+  uses an assertion that compares the results of buggy and correct programs,
+  e.g. assert(buggy\_sum(x, y) == correct\_sum(x,y)
+- For GenProg and Angelix, we create test suites of 10 for each buggy program in
+  the second experiment. We follow their tutorials in setting up this experiment.
 
 ## People
 - Dr. Wei-Ngan Chin (Associate Professor - National University of Singapore)

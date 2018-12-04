@@ -1,5 +1,6 @@
-theme: jekyll-theme-cayman
-title: Maple - A Modular Automatic Program Repair Tool
+# theme: jekyll-theme-cayman
+theme: jekyll-theme-modernist
+title: Maple - A Modular Program Repair Tool
 description: Automatic Program Repair using Formal Verification and Expression Templates
 github:
   is_project_page: false

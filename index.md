@@ -1,4 +1,5 @@
-<!-- You can use the [editor on GitHub](https://github.com/maple-repair/expression-templates/edit/master/index.md) to maintain and preview the content for your website in Markdown files. -->
+<!-- You can use the [editor on -->
+<!-- GitHub](https://github.com/maple-repair/expression-templates/edit/master/index.md) to maintain and preview the content for your website in Markdown files. -->
 
 <!-- # Automated Program Repair using Formal Specifications. -->
 
